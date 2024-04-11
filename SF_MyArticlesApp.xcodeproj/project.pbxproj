@@ -56,7 +56,6 @@
 		B80DD7782BC8990C00208A7E /* MockArticleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticleProvider.swift; sourceTree = "<group>"; };
 		B80DD77C2BC89AFF00208A7E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		B80DD77E2BC89B4300208A7E /* ArticleAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleAPIClient.swift; sourceTree = "<group>"; };
-		B80DD7802BC8A54C00208A7E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +106,6 @@
 		B80DD7412BC896EC00208A7E /* SF_MyArticlesApp */ = {
 			isa = PBXGroup;
 			children = (
-				B80DD7802BC8A54C00208A7E /* README.md */,
 				B80DD7422BC896EC00208A7E /* SF_MyArticlesAppApp.swift */,
 				B80DD76D2BC896FB00208A7E /* UI */,
 				B80DD76E2BC896FF00208A7E /* Util */,
