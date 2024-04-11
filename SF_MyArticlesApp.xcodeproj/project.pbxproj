@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B80DD7432BC896EC00208A7E /* SF_MyArticlesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD7422BC896EC00208A7E /* SF_MyArticlesAppApp.swift */; };
-		B80DD7452BC896EC00208A7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD7442BC896EC00208A7E /* ContentView.swift */; };
 		B80DD7472BC896EE00208A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80DD7462BC896EE00208A7E /* Assets.xcassets */; };
 		B80DD74A2BC896EE00208A7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80DD7492BC896EE00208A7E /* Preview Assets.xcassets */; };
 		B80DD7542BC896EE00208A7E /* SF_MyArticlesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD7532BC896EE00208A7E /* SF_MyArticlesAppTests.swift */; };
 		B80DD75E2BC896EE00208A7E /* SF_MyArticlesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD75D2BC896EE00208A7E /* SF_MyArticlesAppUITests.swift */; };
 		B80DD7602BC896EE00208A7E /* SF_MyArticlesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD75F2BC896EE00208A7E /* SF_MyArticlesAppUITestsLaunchTests.swift */; };
+		B80DD7702BC8971200208A7E /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD76F2BC8971200208A7E /* ArticlesListView.swift */; };
+		B80DD7732BC8973500208A7E /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD7722BC8973500208A7E /* ArticlesViewModel.swift */; };
+		B80DD7752BC8975700208A7E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD7742BC8975700208A7E /* Article.swift */; };
+		B80DD7772BC898D800208A7E /* ArticleListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD7762BC898D800208A7E /* ArticleListRowView.swift */; };
+		B80DD7792BC8990C00208A7E /* MockArticleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD7782BC8990C00208A7E /* MockArticleProvider.swift */; };
+		B80DD77D2BC89AFF00208A7E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD77C2BC89AFF00208A7E /* APIClient.swift */; };
+		B80DD77F2BC89B4300208A7E /* ArticleAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DD77E2BC89B4300208A7E /* ArticleAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		B80DD73F2BC896EC00208A7E /* SF_MyArticlesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SF_MyArticlesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80DD7422BC896EC00208A7E /* SF_MyArticlesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF_MyArticlesAppApp.swift; sourceTree = "<group>"; };
-		B80DD7442BC896EC00208A7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B80DD7462BC896EE00208A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B80DD7492BC896EE00208A7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B80DD74F2BC896EE00208A7E /* SF_MyArticlesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SF_MyArticlesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,14 @@
 		B80DD7592BC896EE00208A7E /* SF_MyArticlesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SF_MyArticlesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80DD75D2BC896EE00208A7E /* SF_MyArticlesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF_MyArticlesAppUITests.swift; sourceTree = "<group>"; };
 		B80DD75F2BC896EE00208A7E /* SF_MyArticlesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF_MyArticlesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B80DD76F2BC8971200208A7E /* ArticlesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListView.swift; sourceTree = "<group>"; };
+		B80DD7722BC8973500208A7E /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		B80DD7742BC8975700208A7E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B80DD7762BC898D800208A7E /* ArticleListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListRowView.swift; sourceTree = "<group>"; };
+		B80DD7782BC8990C00208A7E /* MockArticleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticleProvider.swift; sourceTree = "<group>"; };
+		B80DD77C2BC89AFF00208A7E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B80DD77E2BC89B4300208A7E /* ArticleAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleAPIClient.swift; sourceTree = "<group>"; };
+		B80DD7802BC8A54C00208A7E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +107,11 @@
 		B80DD7412BC896EC00208A7E /* SF_MyArticlesApp */ = {
 			isa = PBXGroup;
 			children = (
+				B80DD7802BC8A54C00208A7E /* README.md */,
 				B80DD7422BC896EC00208A7E /* SF_MyArticlesAppApp.swift */,
-				B80DD7442BC896EC00208A7E /* ContentView.swift */,
+				B80DD76D2BC896FB00208A7E /* UI */,
+				B80DD76E2BC896FF00208A7E /* Util */,
+				B80DD76C2BC896F600208A7E /* Data */,
 				B80DD7462BC896EE00208A7E /* Assets.xcassets */,
 				B80DD7482BC896EE00208A7E /* Preview Content */,
 			);
@@ -125,6 +141,42 @@
 				B80DD75F2BC896EE00208A7E /* SF_MyArticlesAppUITestsLaunchTests.swift */,
 			);
 			path = SF_MyArticlesAppUITests;
+			sourceTree = "<group>";
+		};
+		B80DD76C2BC896F600208A7E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B80DD7742BC8975700208A7E /* Article.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B80DD76D2BC896FB00208A7E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B80DD7712BC8971B00208A7E /* Articles */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B80DD76E2BC896FF00208A7E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B80DD7782BC8990C00208A7E /* MockArticleProvider.swift */,
+				B80DD77C2BC89AFF00208A7E /* APIClient.swift */,
+				B80DD77E2BC89B4300208A7E /* ArticleAPIClient.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B80DD7712BC8971B00208A7E /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				B80DD76F2BC8971200208A7E /* ArticlesListView.swift */,
+				B80DD7722BC8973500208A7E /* ArticlesViewModel.swift */,
+				B80DD7762BC898D800208A7E /* ArticleListRowView.swift */,
+			);
+			path = Articles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80DD7452BC896EC00208A7E /* ContentView.swift in Sources */,
+				B80DD7772BC898D800208A7E /* ArticleListRowView.swift in Sources */,
+				B80DD77D2BC89AFF00208A7E /* APIClient.swift in Sources */,
+				B80DD7792BC8990C00208A7E /* MockArticleProvider.swift in Sources */,
+				B80DD7752BC8975700208A7E /* Article.swift in Sources */,
+				B80DD7702BC8971200208A7E /* ArticlesListView.swift in Sources */,
 				B80DD7432BC896EC00208A7E /* SF_MyArticlesAppApp.swift in Sources */,
+				B80DD77F2BC89B4300208A7E /* ArticleAPIClient.swift in Sources */,
+				B80DD7732BC8973500208A7E /* ArticlesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

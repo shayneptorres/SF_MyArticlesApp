@@ -11,7 +11,7 @@ import SwiftUI
 struct SF_MyArticlesAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArticlesListView(viewModel: .init(api: .init()))
         }
     }
 }
